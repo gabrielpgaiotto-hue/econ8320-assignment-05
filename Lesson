@@ -1115,7 +1115,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 26,
+      "execution_count": 27,
       "id": "26ec792d-757e-4653-b04b-cff55c8053d1",
       "metadata": {
         "id": "26ec792d-757e-4653-b04b-cff55c8053d1"
@@ -1123,12 +1123,10 @@
       "outputs": [],
       "source": [
         "#si-favorite\n",
-        "import re\n",
         "\n",
         "input_string = \"My favorite number is 8\" # an example of possible input\n",
-        "# The match for a single-digit number using a character set\n",
-        "hasNumber = re.search(r'[0123456789]', input_string)\n",
-        "\n"
+        "# Match for any single digit (0-9) using the character set method:\n",
+        "hasNumber = re.search(r'[0123456789]', input_string)"
       ]
     },
     {
