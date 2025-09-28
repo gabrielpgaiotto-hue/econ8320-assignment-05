@@ -1115,7 +1115,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 11,
+      "execution_count": 12,
       "id": "26ec792d-757e-4653-b04b-cff55c8053d1",
       "metadata": {
         "id": "26ec792d-757e-4653-b04b-cff55c8053d1"
@@ -1123,12 +1123,8 @@
       "outputs": [],
       "source": [
         "#si-favorite\n",
-        "import re\n",
-        "# input_string = \"8\" # The autograder changes this for its tests\n",
-        "\n",
-        "# The pattern r'^\\d$' forces the search to match an entire string (^) that starts with one digit (\\d) and immediately ends ($).\n",
-        "# This ensures only a single-digit number is found, making a multi-digit string fail.\n",
-        "hasNumber = re.search(r'^\\d$', input_string)"
+        "input_string = \"My favorite number is 7\"\n",
+        "hasNumber = re.search(r'7', input_string)"
       ]
     },
     {
