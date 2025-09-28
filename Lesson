@@ -1115,7 +1115,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 2,
+      "execution_count": 4,
       "id": "26ec792d-757e-4653-b04b-cff55c8053d1",
       "metadata": {
         "id": "26ec792d-757e-4653-b04b-cff55c8053d1"
@@ -1124,9 +1124,7 @@
       "source": [
         "#si-favorite\n",
         "import re\n",
-        "\n",
         "input_string = \"My favorite number is 8\"\n",
-        "# Match for any isolated single digit (0-9) using word boundaries (\\b):\n",
         "hasNumber = re.search(r'\\b\\d\\b', input_string)"
       ]
     },
@@ -1152,22 +1150,22 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 3,
       "id": "c02656df-e65b-4ce7-bbd0-95ed83ac5cc1",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "c02656df-e65b-4ce7-bbd0-95ed83ac5cc1",
-        "outputId": "83737340-770e-473a-ab2e-5a61d2a807f5"
+        "outputId": "4a5e9925-6913-450e-e6ea-51a9ebd85a41"
       },
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Please enter your phone number: 402-713-6510\n",
-            "True\n"
+            "Please enter your phone number: 4023780456\n",
+            "False\n"
           ]
         }
       ],
