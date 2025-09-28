@@ -1115,7 +1115,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 12,
+      "execution_count": 15,
       "id": "26ec792d-757e-4653-b04b-cff55c8053d1",
       "metadata": {
         "id": "26ec792d-757e-4653-b04b-cff55c8053d1"
@@ -1124,6 +1124,7 @@
       "source": [
         "#si-favorite\n",
         "input_string = \"My favorite number is 7\"\n",
+        "\n",
         "hasNumber = re.search(r'7', input_string)"
       ]
     },
